@@ -2,6 +2,8 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      python: 3.7
     commands:
       - pip install pytest
   pre_build:
@@ -9,7 +11,7 @@ phases:
       - echo nothing to see here
   build:
     commands:
-      - pytest test_joke.py
+      - pytest funniest3535.test_joke.py
   post_build:
     commands:
       - echo nothing to see here
