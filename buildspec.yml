@@ -16,3 +16,4 @@ phases:
 artifacts:
   files:
     - setup.py
+    - funniest3535/*
