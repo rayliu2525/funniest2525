@@ -11,7 +11,7 @@ phases:
       - echo nothing to see here
   build:
     commands:
-      - pytest funniest3535.test_joke.py
+      - pytest funniest3535/test_joke.py
   post_build:
     commands:
       - echo nothing to see here
