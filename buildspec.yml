@@ -15,4 +15,4 @@ phases:
       - echo nothing to see here
 artifacts:
   files:
-    - target/*
+    - setup.py
