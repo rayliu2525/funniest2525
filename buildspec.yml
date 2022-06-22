@@ -3,13 +3,13 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo nothing to see here
+      - pip install pytest
   pre_build:
     commands:
       - echo nothing to see here
   build:
     commands:
-      - echo nothing to see here
+      - pytest test_joke.py
   post_build:
     commands:
       - echo nothing to see here
