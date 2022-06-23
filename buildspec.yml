@@ -19,3 +19,5 @@ artifacts:
   files:
     - setup.py
     - funniest3535/*
+reports:
+  hello:
