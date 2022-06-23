@@ -21,3 +21,5 @@ artifacts:
     - funniest3535/*
 reports:
   hello:
+    files:
+      - funniest3535/test_joke.py
